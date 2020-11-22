@@ -1,0 +1,12 @@
+[package]
+name = "cxx_test"
+version = "0.1.0"
+
+[dependencies]
+cxx = "1.0"
+
+[build-dependencies]
+cxx-build = "1.0"
+
+[lib]
+crate-type = ["cdylib"]
